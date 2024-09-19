@@ -14,11 +14,13 @@ This website serves as a showcase of my expertise in computer vision, machine le
 <p>&nbsp;</p>
 
 ## Overview
+---
 I build and deploy computer vision and machine learning solutions that answer important questions. Data-centric machine learning and a customer-focused development process are the tenets of my work.
 <p>&nbsp;</p>
 
 
 ## Relevant Professional Experience
+---
 #### **BNSF Railway**  
 **Computer Vision/Machine Learning Engineer - Machine Vision Services**  
 *January 2022 - Current*
@@ -31,6 +33,7 @@ I build and deploy computer vision and machine learning solutions that answer im
 - Directed a team of annotators and developers, focusing on team productivity and data-centric modeling.
 
 **Application Development Intern - Technology Services Intern**  
+---
 *Summer 2021*
 
 - Enhanced train wheel damage detection process by developing computer vision models contributing to improved maintenance processes, saving millions of dollars per year.
@@ -49,6 +52,7 @@ I build and deploy computer vision and machine learning solutions that answer im
 
 
 ## Skills & Interests
+---
 - **Programming Languages**: Python, Java, Golang, C++, Dart
 - **Expertise**: 
   - Computer Vision: Traditional and Machine Learning (Transformers, CNNs) based algorithms as well as required dataset analysis/preparation/augmentation processes. 
@@ -66,7 +70,7 @@ I build and deploy computer vision and machine learning solutions that answer im
 
 
 ## Education
-
+---
 **Montana State University** – *Bozeman, MT*  
 **Computer Science**  
 *2018-2021* - GPA: 3.64/4.0  
