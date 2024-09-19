@@ -1,6 +1,6 @@
-title: "My Personal Website"
+title: "Bowen Kruse"
 theme: minima
-description: "A showcase of my projects, articles, and expertise."
+description: "A website for my resume and articles that should probably be published elsewhere"
 # For the navigation bar
 header_pages:
   - index.md
