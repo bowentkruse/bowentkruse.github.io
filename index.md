@@ -3,7 +3,6 @@ layout: default
 title: Home
 ---
 
-<!-- ![My Image](assets/profile.jpeg)  -->
 <img src="assets/profile.jpeg" alt="My Image" style="width:200px;"/>
 
 ## Welcome to My Website
@@ -12,15 +11,14 @@ This website serves as a showcase of my expertise in computer vision, machine le
 
 [Download my Resume](assets/KruseResume2024Q3.pdf)
 
+<p>&nbsp;</p>
 
-### Overview
----
+## Overview
 I build and deploy computer vision and machine learning solutions that answer important questions. Data-centric machine learning and a customer-focused development process are the tenets of my work.
 <p>&nbsp;</p>
 
 
-### Relevant Professional Experience
----
+## Relevant Professional Experience
 #### **BNSF Railway**  
 **Computer Vision/Machine Learning Engineer - Machine Vision Services**  
 *January 2022 - Current*
@@ -50,33 +48,34 @@ I build and deploy computer vision and machine learning solutions that answer im
 <p>&nbsp;</p>
 
 
-### Skills & Interests
----
+## Skills & Interests
 - **Programming Languages**: Python, Java, Golang, C++, Dart
 - **Expertise**: 
-  - Traditional and Machine Learning (Transformers, CNNs) Based Computer Vision
-  - Tabular Machine Learning, Defect Detection
-  - PyTorch, TensorFlow, Basic MLOps
-  - Docker Development/Deployment, Web Application Frameworks, Linux CLI/Distributions
+  - Computer Vision: Traditional and Machine Learning (Transformers, CNNs) based algorithms as well as required dataset analysis/preparation/augmentation processes. 
+  - Tabular Machine Learning: Decision Tree-Based, Linear, SVMS, Clustering
+  - MLOps: Weights & Biases, SageMaker
+  - Libraries: PyTorch, TensorFlow
+  - Docker Development/Deployment
+  - Web Application Frameworks, Linux CLI/Distributions
   - Embedded Software, GitHub, AWS SageMaker, Azure, REST APIs
-  - SQL/NoSQL (MongoDB), Data Modeling, Software Development Lifecycle
+  - SQL/NoSQL (MongoDB)
+  - Data Modeling-
+  - Software Development Lifecycle
 
 <p>&nbsp;</p>
 
 
-### Education
+## Education
 
 **Montana State University** – *Bozeman, MT*  
 **Computer Science**  
-*2018-2021*  
-GPA: 3.64/4.0  
+*2018-2021* - GPA: 3.64/4.0  
 - Active member of the Association for Computing Machinery and IEEE
 - Undergraduate Teaching Assistant for ‘Joy and Beauty of Data’
 
 **American University of Sharjah** – *United Arab Emirates*  
 **Computer Science/Arabic Language Studies**  
-*Fall 2019 - Spring 2020*  
-GPA: 3.5/4.0
+*Fall 2019 - Spring 2020* - GPA: 3.5/4.0
 
 <p>&nbsp;</p>
 
