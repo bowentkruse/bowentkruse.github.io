@@ -1,5 +1,5 @@
 title: "My Personal Website"
-theme: slate
+theme: jekyll-theme-slate
 description: "A showcase of my projects, articles, and expertise."
 # For the navigation bar
 header_pages:
