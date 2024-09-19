@@ -6,6 +6,8 @@
   <body>
 
     {%- include header.html -%}
+    <!-- Add FontAwesome CDN here to use the icons in the footer -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
@@ -14,13 +16,19 @@
     </main>
 
     <!-- Custom Footer with GitHub and LinkedIn Links -->
-    <footer class="site-footer">
-      <p>
-        <a href="https://github.com/your-username" target="_blank">
-          <i class="fab fa-github"></i> GitHub
-        </a> |
-        <a href="https://linkedin.com/in/your-username" target="_blank">
-          <i class="fab fa-linkedin"></i> LinkedIn
+    <footer class="site-footer" style="text-align: center; padding: 20px 0; background-color: #f8f9fa;">
+      <p style="font-size: 1.2em;">
+        <!-- GitHub Link -->
+        <a href="https://github.com/your-username" target="_blank" style="text-decoration: none; color: #333; margin: 0 10px;">
+          <i class="fab fa-github" style="font-size: 1.5em;"></i>
+          GitHub
+        </a>
+        <!-- Divider -->
+        |
+        <!-- LinkedIn Link -->
+        <a href="https://linkedin.com/in/your-username" target="_blank" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
+          <i class="fab fa-linkedin" style="font-size: 1.5em;"></i>
+          LinkedIn
         </a>
       </p>
     </footer>
