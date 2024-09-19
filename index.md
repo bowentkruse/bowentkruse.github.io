@@ -9,4 +9,4 @@ title: Home
 
 This website serves as a showcase of my expertise in computer vision, machine learning, and my project portfolio. Below you'll find sections about my work and articles on technical topics.
 
-[Resume](assets/resume.pdf) <!-- Link to your resume -->
+[Resume](assets/KruseResume2024Q3.pdf) <!-- Link to your resume -->
