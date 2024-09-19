@@ -1,0 +1,8 @@
+title: "My Personal Website"
+theme: minima
+description: "A showcase of my projects, articles, and expertise."
+# For the navigation bar
+header_pages:
+  - index.md
+  - projects.md
+  - articles.md
