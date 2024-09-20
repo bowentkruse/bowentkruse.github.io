@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Home
 ---
 <div style="text-align: center; margin-bottom: 20px;">
@@ -82,7 +82,7 @@ I build and deploy computer vision and machine learning solutions that answer im
 
 <p>&nbsp;</p>
 
-### Professional Certifications & Ratings
+## Professional Certifications & Ratings
 ---
 - **IBM Applied AI Professional** - December 2020
 - **Remote Pilot** - 2022 - Current
