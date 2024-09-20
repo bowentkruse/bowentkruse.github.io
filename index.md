@@ -2,12 +2,14 @@
 layout: default
 title: Home
 ---
+<div style="text-align: center; margin-bottom: 20px;">
+    <img src="assets/profile.jpeg" alt="My Image" style="width:225px; border-radius: 49%;"/>
+</div>
 
-<img src="assets/profile.jpeg" alt="My Image" style="width:200px;"/>
 
 ## Hello, I'm Bowen
 
-This website serves as a showcase of my expertise in computer vision, machine learning, and my project portfolio. Below you'll find sections about my work and articles on technical topics.
+This website serves as a showcase of my expertise in building ***and*** deploying solutions that scale using computer vision and machine learning. Here, you'll find sections about my work and articles on technical topics.
 
 [Download my Resume](assets/KruseResume2024Q3.pdf)
 
