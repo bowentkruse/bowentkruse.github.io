@@ -4,4 +4,4 @@ title: Articles
 ---
 
 ## Articles
- - [Article 1](articles/article1.md)
+ - [Context & Perception with Computer Vision](articles/context_in_percepetion.md)
