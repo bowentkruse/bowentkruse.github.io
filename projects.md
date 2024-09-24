@@ -5,8 +5,7 @@ title: Projects
 
 ## Projects
 
-Here is a list of some projects I’ve worked on:
+Solutions I've Deployed:
 
-- [Project 1](projects/project1.md)
-- [Project 2](projects/project2.md)
-- [Project 3](projects/project3.md)
+- [Intermodal Yard - Automated Inventory Survey](projects/project1.md)
+- More coming soon ... 

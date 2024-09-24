@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Project 1
+title: Intermodal Yard - Automated Inventory Survey
 ---
 
-## Project 1: Image Recognition System
+## Intermodal Yard - Automated Inventory Survey
 
-This project was focused on building a robust image recognition pipeline using deep learning...
+Coming soon ... 
