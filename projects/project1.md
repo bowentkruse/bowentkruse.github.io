@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Intermodal Yard - Automated Inventory Survey
+title: Intermodal Yard Automated Inventory Survey
 ---
 
 # The Problem
@@ -8,9 +8,9 @@ title: Intermodal Yard - Automated Inventory Survey
 Imagine arriving flying into an airport. This airport has 8000 parking spaces. You’re in a massive hurry and in this large airport parking lot, you must find your vehicle and do so quickly. However, your sister's cousin’s roommate’s chiropractor’s best friend was the one who parked your vehicle. Although you agreed upon a certain parking space so that you could locate your car, it was parked in the spot most convenient for your sister's cousin’s roommate’s chiropractor’s best friend. This alternative location was not reported to you. Now imagine you must find your vehicle hundreds of times per day, every day.
 
 This is the reality for many railroads. Intermodal containers and trailers destined to be loaded onto trains are dropped off by customers in intermodal yards in parking spots most convenient for the driver. When it comes time to load containers onto a train, finding each of these containers one by one is infeasible. As a result, human employees periodically drive around the entire yard manually recording the unique identifier of each container or trailer in each of the thousands of spots in the intermodal yard. While mostly effective, utilizing humans to survey a yard’s inventory is expensive, slow, and only as consistent as humans are.
-
+<p>&nbsp;</p>
 <div style="text-align: center; margin-bottom: 20px;">
-    <img src="../assets/yard.jpg" alt="Yard" style="width:725px;"/>
+    <img src="../assets/yard.jpg" alt="Yard" style="width:625px;"/>
 </div>
 
 <p>&nbsp;</p>
@@ -27,7 +27,7 @@ Roving around these intermodal yards 24/7 is a vehicle called a hostler. The ind
 
 <p>&nbsp;</p>
 
-Because these vehicles already pass by all the physical information required, a teammate and I saw this as an opportunity and spent the next two months building. We built a prototype that was then suction-cupped onto the roof of my personal vehicle using parts we scraped together from our own personal stashes of gadgets and goodies. We developed basic models that we deployed to NVIDIA Jetsons, and then built a custom localization algorithm that used the latitude and longitude at which the image was captured to estimate the location of each container/trailer seen.
+Because these vehicles already pass by all the physical information required, a teammate and I saw this as an opportunity and spent the next two months building. We built a prototype that was then suction-cupped onto the roof of my personal vehicle using parts we scraped together from our own personal stashes of gadgets and goodies. We developed basic models that we deployed to NVIDIA Jetsons, and then built a custom localization algorithm that used the latitude and longitude at which the image was captured to estimate the location of each container/trailer seen. Two models were developed for this scene text detection use case, one to locate each container and its identifier, and one to recognize the text value of the identifier, a use case very similar to ALPR. 
 
 Taking the term “intrapreneur” a bit too seriously, we ran this project like a startup. We created a pitch deck and prototype, which were presented to acquire internal funding, created branding for the project, got customer buy-in, hired a team of talented developers, and sweated through 80-hour work weeks until somehow our solution was adopted and deployed around the country at various intermodal yards. This has enabled massive cost savings and allowed our intermodal yard managers to operate with the highest level of precision ever.
 
@@ -71,5 +71,4 @@ Deploying models to both edge computers or the cloud is hard. So we built a plat
 
 <p>&nbsp;</p>
 
-**Patent Status:** All solutions mentioned are either patented or have a patent pending.
-
+**Patent Status:** *All solutions mentioned are either patented or have a patent pending.*
