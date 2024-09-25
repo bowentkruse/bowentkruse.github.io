@@ -21,6 +21,8 @@ By now, you're probably thinking about something like object tracking. Object tr
 
 A more robust approach involves building a post-processing backend that not only learns from what the system has seen but actively uses that knowledge to refine future detections. By storing and analyzing previous detection data, the system gains the ability to compare new inputs to past observations, enhancing its accuracy over time. In the same way engineers who take advantage of sensor fusion untangle meaning from multiple modalities, known data such as weight, time, size, speed, etc., can additionally be included in the detection refinement process. Essentially, the model begins to "learn" the environment in which it's deployed, adapting to the nuances of its surroundings.
 
+<p>&nbsp;</p>
+
 ### A Very Basic Example
 Imagine a parking garage. The goal is to know which cars are entering and exiting this parking garage. To do so, a good approach would be to place cameras at the entrances and exits so they can capture the license plates of each vehicle as they come and go. A model must be trained to read the license plate of each vehicle, [a task very well studied in computer vision](https://en.wikipedia.org/wiki/Automatic_number-plate_recognition). After much work, your model has 99% accuracy when deployed. This means that in a parking garage that sees 2,000 unique vehicles per day (assuming each vehicle that enters also exits on the same day), the system would make 4,000 detections. At 99% accuracy, 40 detections would still be incorrect, an unacceptable amount—especially if this information is used to charge customers for their time in the garage.
 
@@ -31,6 +33,7 @@ Instead of accepting the output of each raw license plate reading as truth, a fe
 3. **Use visual context**: Is the vehicle’s make, model, and color for a given reading the same as that seen in historical detections? When comparing exit readings to entrance readings, is the same true?
 4. **Analyze patterns of error**: What time of day, vehicle type, or character combinations does the system get wrong the most? This information could not only help identify out-of-distribution data, but also inform dynamic inference parameters, such as optimal IOU (Intersection over Union) or confidence thresholds.
 
+<p>&nbsp;</p>
 
 ### In Conclusion
 This ongoing learning and refinement improves the overall performance of the system beyond what real-time detection alone can achieve. It's the computer equivalent of context in human perception—previous knowledge informs new understanding, leading to more reliable, context-aware detections.
