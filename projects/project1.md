@@ -19,9 +19,13 @@ This is the reality for many railroads. Intermodal containers and trailers desti
 ---
 Roving around these intermodal yards 24/7 is a vehicle called a hostler. The industrial vehicle equivalent of [Gimli](https://lotr.fandom.com/wiki/Gimli) in appearance, these vehicles pull containers/trailers next to the tracks to be loaded onto trains or pull containers recently unloaded off trains from the trackside to a standard parking spot.
 
+<p>&nbsp;</p>
+
 <div style="text-align: center; margin-bottom: 20px;">
     <img src="../assets/hostler.jpeg" alt="Hostler" style="width:525px;"/>
 </div>
+
+<p>&nbsp;</p>
 
 Because these vehicles already pass by all the physical information required, a teammate and I saw this as an opportunity and spent the next two months building. We built a prototype that was then suction-cupped onto the roof of my personal vehicle using parts we scraped together from our own personal stashes of gadgets and goodies. We developed basic models that we deployed to NVIDIA Jetsons, and then built a custom localization algorithm that used the latitude and longitude at which the image was captured to estimate the location of each container/trailer seen.
 
