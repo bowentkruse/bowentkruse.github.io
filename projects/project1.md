@@ -10,7 +10,7 @@ Imagine arriving flying into an airport. This airport has 8000 parking spaces. Y
 This is the reality for many railroads. Intermodal containers and trailers destined to be loaded onto trains are dropped off by customers in intermodal yards in parking spots most convenient for the driver. When it comes time to load containers onto a train, finding each of these containers one by one is infeasible. As a result, human employees periodically drive around the entire yard manually recording the unique identifier of each container or trailer in each of the thousands of spots in the intermodal yard. While mostly effective, utilizing humans to survey a yard’s inventory is expensive, slow, and only as consistent as humans are.
 
 <div style="text-align: center; margin-bottom: 20px;">
-    <img src="assets/yard.jpg" alt="Yard" style="width:425px;"/>
+    <img src="../assets/yard.jpg" alt="Yard" style="width:425px;"/>
 </div>
 
 <p>&nbsp;</p>
@@ -20,7 +20,7 @@ This is the reality for many railroads. Intermodal containers and trailers desti
 Roving around these intermodal yards 24/7 is a vehicle called a hostler. The industrial vehicle equivalent of [Gimli](https://lotr.fandom.com/wiki/Gimli) in appearance, these vehicles pull containers/trailers next to the tracks to be loaded onto trains or pull containers recently unloaded off trains from the trackside to a standard parking spot.
 
 <div style="text-align: center; margin-bottom: 20px;">
-    <img src="assets/hostler.jpeg" alt="Hostler" style="width:325px;"/>
+    <img src="../assets/hostler.jpeg" alt="Hostler" style="width:325px;"/>
 </div>
 
 Because these vehicles already pass by all the physical information required, a teammate and I saw this as an opportunity and spent the next two months building. We built a prototype that was then suction-cupped onto the roof of my personal vehicle using parts we scraped together from our own personal stashes of gadgets and goodies. We developed basic models that we deployed to NVIDIA Jetsons, and then built a custom localization algorithm that used the latitude and longitude at which the image was captured to estimate the location of each container/trailer seen.
@@ -64,6 +64,8 @@ Active learning is the process of identifying what is missing from your training
 Deploying models to both edge computers or the cloud is hard. So we built a platform where each piece of functionality involved with inference—such as pre-processing, post-processing, publishing, sensor fusion—was represented as a node. This way, each functionality could be combined into a single pipeline that is then deployed as one entity. This, of course, was built using some amazing technology stacks such as NVIDIA Triton Inference Server, Redis, and Roboflow.
 
 ---
+
+<p>&nbsp;</p>
 
 **Patent Status:** All solutions mentioned are either patented or have a patent pending.
 
