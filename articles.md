@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Articles
 ---
 ***No content written by LLMs, just some grammar checking***
