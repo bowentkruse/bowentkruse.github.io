@@ -53,11 +53,11 @@ There were also some technical achievements that I am particularly proud of:
 
 ### Using Historical Context to Improve New Detections
 
-An implementation of my Context & Perception with Computer Vision approach, I built software so that each edge perception system remembered what it had seen before. This knowledge of historical inventory was spatially aware, allowing for location corrections and the improvement of new detections.
+An implementation of my [Context & Perception with Computer Vision](../articles/context_in_percepetion.md) approach, I built software so that each edge perception system remembered what it had seen before. This knowledge of historical inventory was spatially aware, allowing for location corrections and the improvement of new detections.
 
-### Use Case Specific Active Learning
+### Use Case Specific Pool-Based Sampling Active Learning
 
-Active learning is the process of identifying what is missing from your training dataset. Or, if you’re a math-head, identifying out-of-distribution data. I built an automated system that not only identified images the models got wrong or that would improve precision/recall, but also images that would directly improve the customer’s success metrics using spatial and time analysis.
+[Active learning](https://blog.roboflow.com/what-is-active-learning/#pool-based-sampling) is the process of identifying what is missing from your training dataset. Pool-Based sampling is ranking examples and selecting the top n number of samples to add to the training set. Or, if you’re a math-head, identifying out-of-distribution data and prioritizing which to add to the dataset. I built an algorithm that instead of just prioritizing images by incorrect detections or low confidences, prioritized samples based on a spatial and time-based heuristic so that improvement in the model meant an improvement as measured by our customers success metrics.
 
 ### Node-Based Model Deployment
 
