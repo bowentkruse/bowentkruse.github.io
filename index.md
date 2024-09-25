@@ -3,11 +3,12 @@ layout: home
 title: Home
 ---
 <div style="text-align: center; margin-bottom: 20px;">
-    <img src="assets/profile.jpeg" alt="My Image" style="width:225px; border-radius: 49%;"/>
+    <img src="assets/profile.jpeg" alt="My Image" style="width:275px; border-radius: 46%;"/>
 </div>
 
 
 ## Hello, I'm Bowen
+*Disclaimer: my lackluster website building ability does not reflect my ability as an engineer.*
 
 This website serves as a showcase of my expertise in building ***and*** deploying solutions that scale using computer vision and machine learning. Here, you'll find sections about my work and articles on technical topics.
 
@@ -18,15 +19,15 @@ This website serves as a showcase of my expertise in building ***and*** deployin
 ## Overview
 ---
 I build and deploy computer vision and machine learning solutions that answer important questions. Data-centric machine learning and a customer-focused development process are the tenets of my work.
-<p>&nbsp;</p>
 
+<p>&nbsp;</p>
 
 ## Relevant Professional Experience
 ---
 **Computer Vision/Machine Learning Engineer - BNSF Railway**  
 *January 2022 - Current*
 
-- Founded a project that scaled to nationwide deployment generating an estimated 8-figure ROI. 2 patents pending and nominated for BNSF Railway 2023 Invention of the Year.
+- Founded a [project](projects/project1.md) that scaled to nationwide deployment generating an estimated 8-figure ROI. 2 patents pending and nominated for BNSF Railway 2023 Invention of the Year.
 - Built model development pipeline that serviced multiple internal projects and managed the construction of a model deployment (NVIDIA Jetson) pipeline enabling deployment of true-edge use cases.
 - Developed use-case agnostic platforms enabling faster deployment and adoption of greenfield approaches, allowing four projects to become cost-feasible.
 - Improved existing object detection model accuracy by 26% mAP for drone-based OCR use case.
@@ -52,7 +53,7 @@ I build and deploy computer vision and machine learning solutions that answer im
 
 ## Skills & Interests
 ---
-- **Programming Languages**: Python, Java, Golang, C++, Dart
+- **Programming Languages**: Python, Java, C++, Golang
 - **Expertise**: 
   - Computer Vision: Traditional and Machine Learning (Transformers, CNNs) based algorithms as well as required dataset analysis/preparation/augmentation processes. 
   - Tabular Machine Learning: Decision Tree-Based, Linear, SVMS, Clustering
