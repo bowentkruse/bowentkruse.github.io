@@ -13,6 +13,17 @@ Convolutions are like using a camera lens to highlight certain details in a scen
 
 Just like the size of your camera lens and how you move it affects what you capture, convolutions are controlled by the kernel size (how big the lens is), stride (how far you move the lens between shots), and padding (whether you add a little extra space around the edges). In a convolutional neural network, this process helps the model "see" and extract important features from the image, one filter at a time, which combines to hopefully an understanding of the whole scene.
 
+<p>&nbsp;</p>
+<div style="text-align: center; margin-bottom: 20px;">
+    <figure>
+        <img src="../assets/convolution-1.png" alt="Yard" style="width:425px;"/>
+        <figcaption style="font-size: 12px; color: #555;">
+            Image credit: <a href="https://developer.nvidia.com/discover/convolution" target="_blank" style="color: #555;">NVIDIA Developer</a>
+        </figcaption>
+    </figure>
+</div>
+
+
 Kernel size, stride, and padding are the three parameters that one should pay attention to when attempting to make an off-the-shelf architecture such as YOLOv8 work for their use case. 
 
 General Trade-offs:
@@ -34,11 +45,22 @@ In the same way, a loss function in a neural network measures how far the model�
 <p>&nbsp;</p>
 
 ### Non-Maximum Supression (NMS)
-It's 2010, and while on vacation you ask a stranger to use your iPhone 4 to snap some pictures of you in front of Butte Montana's amazing Berkely Pit. Upon review you find the stranger took dozens of very similar images and so many images is a real risk to your iPhone's state of the art 32 GB memory. Rather than keeping all of the images, you select the ones you like the most. 
+It's 2010, and while on vacation you ask a stranger to use your iPhone 4 to snap some pictures of you in front of Butte Montana's amazing Berkely Pit (our proudest landmark). Upon review you find the stranger took dozens of very similar images and so many images is a real risk to your iPhone's state of the art 32 GB memory. Rather than keeping all of the images, you select the ones you like the most. 
 
 In the same way, Non-Maximum Suppression (NMS) helps a model handle multiple overlapping detections of the same object. When the model detects an object, it often predicts several bounding boxes around it, each slightly different but overlapping. NMS selects the most confident prediction (the “best photo”) and removes the others that are less confident but similar (overlapping boxes). This ensures that the model outputs only one bounding box per object, making the detection cleaner and more efficient. NMS is also used in keypoint detection, NLP, and segmentation tasks. 
 
 IoU Threshold, Confidence Threshold, and Maximum Detections are the three parameters that one should pay attention to when attempting to make an off-the-shelf architecture such as YOLOv8 work for their use case. 
+
+<p>&nbsp;</p>
+<div style="text-align: center; margin-bottom: 20px;">
+    <figure>
+        <img src="../assets/berkleypit.jpg" alt="Yard" style="width:425px;"/>
+        <figcaption style="font-size: 12px; color: #555;">
+            Image credit: <a href="https://www.juneauempire.com/opinion/opinion-as-alaskans-consider-pebble-mine-a-cautionary-tale-from-montana/" target="_blank" style="color: #555;">Juneau Empire</a>
+        </figcaption>
+    </figure>
+</div>
+
 
 General Trade-Offs:
 
@@ -87,6 +109,16 @@ If you're wondering what causes data to become "uneven", there are two main caus
 You're a baseball coach for a team with an aweful drinking problem. Quite often, players don't show up for games, and so those that are present need to pick up the slack. In a moment of genius, you realize you need to practice for situations where players are out sick with the beer-flu. During practice you randomly tell some of your players to sit out for certain drills. This forces the remaining players to step up and cover more ground, improving their individual ability to play more flexibily when they can't rely on the same key players every time. When game day comes, the entire team is stronger because everyone has had to improve and adapt.
 
 In a neural network, dropout works similarly. During training, dropout randomly "turns off" (or drops out) some neurons in each layer for each pass through the data. This forces the remaining neurons to carry more responsibility, ensuring that the network doesn’t become too reliant on any one part of itself. As a result, when all neurons are active during testing, the network performs better because every neuron has learned to contribute, making it more robust and less prone to overfitting.
+
+<p>&nbsp;</p>
+<div style="text-align: center; margin-bottom: 20px;">
+    <figure>
+        <img src="../assets/BadNewsBears.jpg" alt="Yard" style="width:425px;"/>
+        <figcaption style="font-size: 12px; color: #555;">
+            Image credit: <a href="https://coolercinema.blogspot.com/2012/04/passe-ball-bad-news-bears.html" target="_blank" style="color: #555;">Cooler Cinema</a>
+        </figcaption>
+    </figure>
+</div>
 <p>&nbsp;</p>
 
 ### I will continue to add more metaphorical descriptions as I think of them, please reach out if you have any to share. 
