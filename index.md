@@ -30,7 +30,7 @@ I build and deploy computer vision and machine learning solutions that answer im
 - Founded a [project](projects/project1.md) that scaled to nationwide deployment generating an estimated 8-figure ROI. 2 patents pending and nominated for BNSF Railway 2023 Invention of the Year.
 - Built model development pipeline that serviced multiple internal projects and managed the construction of a model deployment (NVIDIA Jetson) pipeline enabling deployment of true-edge use cases.
 - Developed use-case agnostic platforms enabling faster deployment and adoption of greenfield approaches, allowing four projects to become cost-feasible.
-- Improved existing object detection model accuracy by 26% mAP for drone-based OCR use case.
+- Improved existing object detection model accuracy by 26% mAP for [drone-based OCR use case](projects/project2.md).
 - Cultivated strong relationships with internal customers emphasizing adoption and best practices to achieve a swift three-quarter time-to-production.
 - Directed a team of annotators and developers, focusing on team productivity and data-centric modeling.
 
