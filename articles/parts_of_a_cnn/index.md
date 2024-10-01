@@ -15,7 +15,7 @@ Just like the size of your camera lens and how you move it affects what you capt
 
 <p>&nbsp;</p>
 <div style="text-align: center; margin-bottom: 20px;">
-    <img src="../assets/convolution-1.png" alt="Yard" style="width:425px;"/>
+    <img src="../../assets/convolution-1.png" alt="Yard" style="width:425px;"/>
 </div>
 
 <p>&nbsp;</p>
@@ -50,7 +50,7 @@ IoU Threshold, Confidence Threshold, and Maximum Detections are the three parame
 
 <p>&nbsp;</p>
 <div style="text-align: center; margin-bottom: 20px;">
-    <img src="../assets/berkleypit.jpg" alt="Yard" style="width:425px;"/>
+    <img src="../../assets/berkleypit.jpg" alt="Yard" style="width:425px;"/>
 </div>
 
 <p>&nbsp;</p>
@@ -105,7 +105,7 @@ In a neural network, dropout works similarly. During training, dropout randomly 
 
 <p>&nbsp;</p>
 <div style="text-align: center; margin-bottom: 20px;">
-    <img src="../assets/BadNewsBears.jpg" alt="Yard" style="width:525px;"/>
+    <img src="../../assets/BadNewsBears.jpg" alt="Yard" style="width:525px;"/>
 </div>
 
 <p>&nbsp;</p>
