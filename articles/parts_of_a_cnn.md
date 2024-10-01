@@ -15,13 +15,10 @@ Just like the size of your camera lens and how you move it affects what you capt
 
 <p>&nbsp;</p>
 <div style="text-align: center; margin-bottom: 20px;">
-    <figure>
-        <img src="../assets/convolution-1.png" alt="Yard" style="width:425px;"/>
-        <figcaption style="font-size: 12px; color: #555;">
-            Image credit: <a href="https://developer.nvidia.com/discover/convolution" target="_blank" style="color: #555;">NVIDIA Developer</a>
-        </figcaption>
-    </figure>
+    <img src="../assets/convolution-1.png" alt="Yard" style="width:425px;"/>
 </div>
+
+<p>&nbsp;</p>
 
 
 Kernel size, stride, and padding are the three parameters that one should pay attention to when attempting to make an off-the-shelf architecture such as YOLOv8 work for their use case. 
@@ -53,14 +50,10 @@ IoU Threshold, Confidence Threshold, and Maximum Detections are the three parame
 
 <p>&nbsp;</p>
 <div style="text-align: center; margin-bottom: 20px;">
-    <figure>
-        <img src="../assets/berkleypit.jpg" alt="Yard" style="width:425px;"/>
-        <figcaption style="font-size: 12px; color: #555;">
-            Image credit: <a href="https://www.juneauempire.com/opinion/opinion-as-alaskans-consider-pebble-mine-a-cautionary-tale-from-montana/" target="_blank" style="color: #555;">Juneau Empire</a>
-        </figcaption>
-    </figure>
+    <img src="../assets/berkleypit.jpg" alt="Yard" style="width:425px;"/>
 </div>
 
+<p>&nbsp;</p>
 
 General Trade-Offs:
 
@@ -112,13 +105,9 @@ In a neural network, dropout works similarly. During training, dropout randomly 
 
 <p>&nbsp;</p>
 <div style="text-align: center; margin-bottom: 20px;">
-    <figure>
-        <img src="../assets/BadNewsBears.jpg" alt="Yard" style="width:425px;"/>
-        <figcaption style="font-size: 12px; color: #555;">
-            Image credit: <a href="https://coolercinema.blogspot.com/2012/04/passe-ball-bad-news-bears.html" target="_blank" style="color: #555;">Cooler Cinema</a>
-        </figcaption>
-    </figure>
+    <img src="../assets/BadNewsBears.jpg" alt="Yard" style="width:525px;"/>
 </div>
+
 <p>&nbsp;</p>
 
 ### I will continue to add more metaphorical descriptions as I think of them, please reach out if you have any to share. 
