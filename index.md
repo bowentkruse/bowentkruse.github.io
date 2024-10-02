@@ -33,6 +33,7 @@ I build and deploy computer vision and machine learning solutions that answer im
 - Improved existing object detection model accuracy by 26% mAP for [drone-based OCR use case](projects/imdl_ays_drone).
 - Cultivated strong relationships with internal customers emphasizing adoption and best practices to achieve a swift three-quarter time-to-production.
 - Directed a team of annotators and developers, focusing on team productivity and data-centric modeling.
+- Created image focus quantificaton algorithm resulting in reduction of 40-50% of project false positives. 
 
 **Application Development Intern - BNSF Railway**  
 *Summer 2021*

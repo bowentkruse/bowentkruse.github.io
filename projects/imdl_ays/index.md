@@ -10,7 +10,7 @@ Imagine arriving flying into an airport. This airport has 8000 parking spaces. Y
 This is the reality for many railroads. Intermodal containers and trailers destined to be loaded onto trains are dropped off by customers in intermodal yards in parking spots most convenient for the driver. When it comes time to load containers onto a train, finding each of these containers one by one is infeasible. As a result, human employees periodically drive around the entire yard manually recording the unique identifier of each container or trailer in each of the thousands of spots in the intermodal yard. While mostly effective, utilizing humans to survey a yard’s inventory is expensive, slow, and only as consistent as humans are.
 <p>&nbsp;</p>
 <div style="text-align: center; margin-bottom: 20px;">
-    <img src="../assets/yard.jpg" alt="Yard" style="width:625px;"/>
+    <img src="../../assets/yard.jpg" alt="Yard" style="width:625px;"/>
 </div>
 
 <p>&nbsp;</p>
@@ -22,7 +22,7 @@ Roving around these intermodal yards 24/7 is a vehicle called a hostler. The ind
 <p>&nbsp;</p>
 
 <div style="text-align: center; margin-bottom: 20px;">
-    <img src="../assets/hostler.jpeg" alt="Hostler" style="width:525px;"/>
+    <img src="../../assets/hostler.jpeg" alt="Hostler" style="width:525px;"/>
 </div>
 
 <p>&nbsp;</p>
@@ -57,7 +57,7 @@ There were also some technical achievements that I am particularly proud of:
 
 ### Using Historical Context to Improve New Detections
 
-An implementation of my [Context & Perception with Computer Vision](../articles/context_in_percepetion.md) approach, I built software so that each edge perception system remembered what it had seen before. This knowledge of historical inventory was spatially aware, allowing for location corrections and the improvement of new detections.
+An implementation of my [Context & Perception with Computer Vision](../../articles/context_in_percepetion) approach, I built software so that each edge perception system remembered what it had seen before. This knowledge of historical inventory was spatially aware, allowing for location corrections and the improvement of new detections.
 
 ### Use Case Specific Pool-Based Sampling Active Learning
 
