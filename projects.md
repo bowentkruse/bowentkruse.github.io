@@ -7,6 +7,6 @@ title: Projects
 
 **Patent Status:** *Many solutions mentioned are either patented or have a patent pending.*
 
-- [Intermodal Yard Automated Inventory Survey](projects/project1.md)
-- [Intermodal Yard Automated Inventory Survey (with drones)](projects/project2.md)
+- [Intermodal Yard Automated Inventory Survey](projects/imdl_ays)
+- [Intermodal Yard Automated Inventory Survey (with drones)](projects/imdl_ays_drone)
 - More coming soon ... 
