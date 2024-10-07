@@ -21,6 +21,7 @@ Quantifying image clarity is critical, and lucky for us, numerous methods have b
 Click here to open in Colab
 
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bowentkruse/quantifyingFocus/blob/master/demo.ipynb)
+
 <p>&nbsp;</p>
 
 In this demo, we'll implement multiple variations of Brenner's focus measure and then analyze which method is most effective on the [GoPro dataset](https://paperswithcode.com/dataset/gopro). The full dataset can be found [here](https://seungjunnah.github.io/Datasets/gopro.html). We'll pretend in this scenario that these are images captured by a deployed camera, and our goal is to automatically filter out blurry images. 
@@ -236,14 +237,16 @@ def get_brenners_focus_color(pil_image: Image.Image) -> float:
     return focus_measure
 
 ```
-### Evaluating Focus for the GoPro Dataset
+### Evaluating Brenner's Variations for the GoPro Dataset
 In order to evaluate each focus measure varation's ability to distinguish between blurry and clear images, lets assume that the larger absolute difference (separation) between the clear set's mean focus measure and the blurry set's mean focus measure the better. 
 
 In order to do this, for each brenner's focus measure variation we implemented, we will calculate the mean focus measure for both the clear set of images, and the blury set of images. Then, we'll find the difference between each set's focus measure mean. We'll also plot the focus measure for each image so we can visually verify the results. 
 
 If you're not following along in the colab note book, this evaluation code can be found in [demo.ipynb](https://github.com/bowentkruse/quantifyingFocus/blob/master/demo.ipynb).
 
-### Results
+<p>&nbsp;</p>
+
+####  Results
 
 **Variation 1: Horizontal Derivative (The Original)**
 - Blurry Images - Mean: 10532908.25
@@ -281,6 +284,23 @@ Looking at our results, Variation 3: Horizontal Gradient produced the largest ab
 
 <p>&nbsp;</p>
 
+### Threshold Based Filtering Using Focus Measures
+In the introduction I mentioned that for the sake of understanding we were going to pretend in this scenario that these are images captured by a deployed camera, and our goal is to automatically filter out blurry images. We found that our third variant that used the horizontal gradient variation of brenner's focus measure was best at distinguishing between clear and blurry images. Let's use that third variation to simulate a threshold based filter. Imagine our system has a flow like the diagram below, a sensor captures images but before passing each image to inference, a focus measure for that image is calulated. If the image's focus measure value is sufficient, it will continue on to inference, else, it will be dropped.
+
+<p>&nbsp;</p>
+<div style="text-align: center; margin-bottom: 20px;">
+    <img src="../../assets/focusfilter.drawio.png" alt="Yard" style="width:575px;"/>
+</div>
+
+<p>&nbsp;</p>
+
+Picking a threshold of 16,000,000, and running the same dataset (yes I know a train/validate split would be better) through the above logic, we get the following results:
+
+```
+Of 1028, 566 blurry images were dropped sucessfully 55.05836575875487% reduction
+Of 1029, 27 clear images were incorrectly droppped 2.623906705539359% reduction
+F1: 0.6983343615052436
+```
 ### Further Reading and Resources
 [An extensive empirical evaluation of focus measures
 for digital photography](https://cs.uwaterloo.ca/~vanbeek/Publications/spie2014.pdf)
