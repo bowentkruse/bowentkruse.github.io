@@ -2,9 +2,8 @@
 layout: post
 title: Quantifying Focus in Computer Vision Use Cases
 ---
-# In Progress
 
-*September 2024*
+*Updated October 2024*
 
 Click here to the demo available in Google Colab
 
