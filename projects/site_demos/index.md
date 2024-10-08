@@ -10,6 +10,10 @@ By making content interactive, it encourages a higher level understanding from t
 
 A secondary objective of this content is to fill-in any gaps I see in other publicly available content. Companies such as roboflow have enough content such that any diligent person with a basic programming ability could become a half-decent computer vision engineer. My goal is to provide original content focused on real-world use cases. 
 
+<p>&nbsp;</p>
+
+---
+
 ### [Quantifying Focus in Computer Vision Use Cases](../../articles/quantifying_focus/)
 
 **Audience:** Computer Vision Engineers, especially those interacting with dataOps, developing sensors, or any data-centric developer.
