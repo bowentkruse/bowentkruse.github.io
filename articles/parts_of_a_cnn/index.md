@@ -5,7 +5,9 @@ title: Metaphors for Understanding the Essential Components of a Convolutional N
 *October 2024*
 
 ### Introduction
-Tools such as Roboflow, ultralytics, or Edge Impulse allow non-technical users to create computer vision models with high accuracy and performance. Never before has it been easier to develop computer vision models, and in the next few years, companies will slowly make each part of the computer vision development and deployment process just as pain-free. However, the best performance from these tools is usually produced by users who have at least a semi-academic understanding of the components and mechanisms that are responsible for the performance and accuracy of a system when deployed. This post will cover the key components found in modern convolutional neural networks, and metaphors that will hopefully enable a higher level of understanding for a semi-technical audience.
+Tools such as Roboflow, ultralytics, or Edge Impulse allow non-technical users to create computer vision models with high accuracy and performance. Never before has it been easier to develop computer vision models, and in the next few years, companies will slowly make each part of the computer vision development and deployment process just as pain-free. 
+
+However, the best performance from these tools is usually produced by users who have at least a semi-academic understanding of the components and mechanisms that are responsible for the performance and accuracy of a system when deployed. This post will cover the key components found in modern convolutional neural networks, and metaphors that will hopefully enable a higher level of understanding for a semi-technical audience.
 <p>&nbsp;</p>
 
 ### Convolutional Layers
