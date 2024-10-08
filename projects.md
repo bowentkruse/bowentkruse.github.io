@@ -9,4 +9,5 @@ title: Projects
 
 - [Intermodal Yard Automated Inventory Survey](projects/imdl_ays)
 - [Intermodal Yard Automated Inventory Survey (with drones)](projects/imdl_ays_drone)
+- [Interactive articles/tutorials on this site](projects/site_demos/)
 - More coming soon ... 
