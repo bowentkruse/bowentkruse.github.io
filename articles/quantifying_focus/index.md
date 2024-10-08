@@ -285,7 +285,9 @@ Looking at our results, Variation 3: Horizontal Gradient produced the largest ab
 <p>&nbsp;</p>
 
 ### Threshold Based Filtering Using Focus Measures
-In the introduction I mentioned that for the sake of understanding we were going to pretend in this scenario that these are images captured by a deployed camera, and our goal is to automatically filter out blurry images. We found that our third variant that used the horizontal gradient variation of brenner's focus measure was best at distinguishing between clear and blurry images. Let's use that third variation to simulate a threshold based filter. Imagine our system has a flow like the diagram below, a sensor captures images but before passing each image to inference, a focus measure for that image is calulated. If the image's focus measure value is sufficient, it will continue on to inference, else, it will be dropped.
+Based on the assumption that the larger the absolute difference between the clear set's mean focus measure and the blurry set's mean focus measure the better, we've found our best and worst variations of brenner's focus measure.
+
+In the introduction I mentioned that for the sake of understanding we were going to pretend in this scenario that these are images captured by a deployed camera, and our goal is to automatically filter out blurry images. We found that our third variant that used the horizontal gradient variation of brenner's focus measure was best at distinguishing between clear and blurry images. Also, we found that the variant that uses the vertical derivative was the least effective. Now we're going to evaluate each of these variations by their ability to detect blury images. Imagine our system has a sensor that captures images but before passing each image to inference, a focus measure for that image is calulated. If the image's focus measure value is sufficient, it will continue on to inference, else, it will be dropped.
 
 <p>&nbsp;</p>
 <div style="text-align: center; margin-bottom: 20px;">
@@ -294,13 +296,36 @@ In the introduction I mentioned that for the sake of understanding we were going
 
 <p>&nbsp;</p>
 
-Picking a threshold of 16,000,000, and running the same dataset (yes I know a train/validate split would be better) through the above logic, we get the following results:
+#### Evaluating our best and worst focus measure variations
+Lets assume that our use case allows at most a false positive rate of of 3% (clear images incorrectly deemed too blurry). That means for both focus measure variations we're going to evaluate, we need to select a threshold that at most results in a 3% reduction in clear images. Success will then be measured by the quantity of blurry images filtered out. 
+
+For our best variation with a selected threshold of `16810000` we get the following result:
 
 ```
-Of 1028, 566 blurry images were dropped sucessfully 55.05836575875487% reduction
-Of 1029, 27 clear images were incorrectly droppped 2.623906705539359% reduction
-F1: 0.6983343615052436
+Of 1028, 583 blurry images were dropped successfully (56.71% reduction)
+Of 1029, 30 clear images were incorrectly dropped (2.92% reduction)
+Precision: 0.95, Recall: 0.57, F1 Score: 0.71
 ```
+
+For our worst variation with a selected threshold of `7695000` we get the following result:
+
+```
+Of 1028, 193 blurry images were dropped successfully (18.77% reduction)
+Of 1029, 30 clear images were incorrectly dropped (2.92% reduction)
+Precision: 0.87, Recall: 0.19, F1 Score: 0.31
+```
+
+### Conclusion
+Hopefully by now you've run all the cells and have been able to successfully recreate the experiment. 
+
+In this demo we have:
+1. Loaded a dataset from roboflow
+2. Implemented 5 variations of brenner's focus measure
+3. Found what is measured to be the best and worst variations for our dataset
+4. Simulated a threshold based filter on our dataset to further compare the effectiveness of these variations
+
+We found that the horizontal gradient based variation of brenner's focus measure was effective in measuring blur in our dataset and could offer an estimated 56% reduction in blurry images. 
+
 ### Further Reading and Resources
 [An extensive empirical evaluation of focus measures
 for digital photography](https://cs.uwaterloo.ca/~vanbeek/Publications/spie2014.pdf)
