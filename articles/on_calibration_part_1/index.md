@@ -1,13 +1,5 @@
----
-layout: post
-title: Evaluating Confidence Calibration
----
-
-*Updated September 2025*
-
-
 ### Introduction
-In the world of computer vision, and machine learning in general, confidence scores are an often missunderstood value. Many folks, both practictioners and project stakeholders in general, assume that a model's confidence score directly reflects the probability of correctness. However, this is only true if the model is well-calibrated. 
+In the world of computer vision, and machine learning in general, confidence scores are an often misunderstood value. Many folks, both practitioners and project stakeholders in general, assume that a model's confidence score directly reflects the probability of correctness. However, this is only true if the model is well-calibrated. 
 
 In real-world scenarios, particularly those of importance with high criticality, the likelihood of correctness is almost just as important as an accurate model prediction. Why? Because backend systems—whether it’s a database deciding what to store, or an API triggering an action—make binary decisions. Models give probabilities. Calibration is what lets a system draw a clean line between “trust this” and “maybe don’t". If your computer vision or ML system doesn’t report confidence, or reports uncalibrated scores, you’re either leaving performance on the table, or the system itself is unimportant. 
 
@@ -57,9 +49,9 @@ Again, referring back to the reliability diagram, MCE is the height of the large
 
 
 #### Brier Score
-The Brier Score quantifies the mean squared difference between predicted confidence and actual binary outcomes. A lower Brier Score indicates better-calibrated AND more accurate predictions.
+The Brier Score quantifies the mean squared difference between predicted confidence and actual binary outcomes. A lower Brier Score indicates better-calibrated **and** more accurate predictions.
 
 Unlike ECE or MCE, which focus purely on calibration, Brier Score blends both **calibration** and **discrimination**. This makes it a more holistic metric in some cases, but also harder to interpret in isolation. I like to think of it as the L2 loss of a model’s confidence output.
 
 #### Conclusion
-Now that we have some solid ways to understand how well our model is calibrated, in [Part 2](articles/on_calibration_part_2) we'll cover how to improve calibration with some post-hoc techniques.
+Now that we have some solid ways to understand how well our model is calibrated, in [Part 2](../on_calibration_part_2) we'll cover how to improve calibration with some post-hoc techniques.
