@@ -17,4 +17,5 @@ _site/
 # Details at https://github.com/github/pages-gem/issues/768
 Gemfile.lock
 articles/cv_vendors.md
-articles/quantifying_focus.md
+# macOS specific
+.DS_Store

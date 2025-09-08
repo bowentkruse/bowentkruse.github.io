@@ -24,11 +24,17 @@ I build and deploy computer vision and machine learning solutions that answer im
 
 ## Relevant Professional Experience
 ---
+**Lead Computer Vision Engineer – BNSF Railway**  
+*October 2024 – Present*  
+- Scaled an inventory survey [project](projects/imdl_ays), increasing deployment count by **2.5× across U.S. locations** by reducing false positives by 60-70% and significantly increase coverage.  
+- Designed and implemented a **use-case-agnostic model development pipeline** on AWS SageMaker, supporting multiple internal projects and enabling scalable, true-edge model deployment.  
+- Drove **25–45% mAP improvement** and **2–4× latency reduction** across three production vision pipelines by leading teams in the adoption of advanced tooling, architecture optimization, and **data-centric training practices**.
+
+
 **Computer Vision/Machine Learning Engineer - BNSF Railway**  
-*January 2022 - Current*
+*January 2022 - October 2024*
 
 - Co-founded a [project](projects/imdl_ays) that scaled to nationwide deployment generating an estimated 8-figure ROI. 2 patents pending and nominated for BNSF Railway 2023 Invention of the Year.
-- Built model development pipeline that serviced multiple internal projects and managed the construction of a model deployment (NVIDIA Jetson) pipeline enabling deployment of true-edge use cases.
 - Developed use-case agnostic platforms enabling faster deployment and adoption of greenfield approaches, allowing four projects to become cost-feasible.
 - Improved existing object detection model accuracy by 26% mAP for [drone-based OCR use case](projects/imdl_ays_drone).
 - Cultivated strong relationships with internal customers emphasizing adoption and best practices to achieve a swift three-quarter time-to-production.
