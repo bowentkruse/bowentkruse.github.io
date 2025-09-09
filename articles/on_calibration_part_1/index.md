@@ -64,4 +64,4 @@ The Brier Score quantifies the mean squared difference between predicted confide
 Unlike ECE or MCE, which focus purely on calibration, Brier Score blends both **calibration** and **discrimination**. This makes it a more holistic metric in some cases, but also harder to interpret in isolation. I like to think of it as the L2 loss of a model’s confidence output.
 
 #### Conclusion
-Now that we have some solid ways to understand how well our model is calibrated, in [Part 2](../on_calibration_part_2) we'll cover how to improve calibration with some post-hoc techniques.
+Now that we have some solid ways to understand how well our model is calibrated, in [Part 2](../on_calibration_part_2/index.md) we'll cover how to improve calibration with some post-hoc techniques.

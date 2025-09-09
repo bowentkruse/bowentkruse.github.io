@@ -7,7 +7,7 @@ title: Confidence Calibration Part 2: Post-training Improvements (Includes Googl
 
 Click here to the demo available in Google Colab
 
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](bowentkruse/confidenceCalibration/blob/main/demo.ipynb)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bowentkruse/confidenceCalibration/blob/main/demo.ipynb)
 <p>&nbsp;</p>
 
 ### Introduction
