@@ -24,6 +24,10 @@ I build and deploy computer vision and machine learning solutions that answer im
 
 ## Relevant Professional Experience
 ---
+**Cofounder/Head of Technology – [Wanda Analytics](https://www.wandaanalytics.com/)**  
+*November 2024 – Present*  
+ - Advised multiple companies including Y Combinator backed startups and Fortune 300 enterprises on solution design and model development, leveraging deep expertise as a practicing computer vision engineer.
+
 **Lead Computer Vision Engineer – BNSF Railway**  
 *October 2024 – Present*  
 - Scaled an inventory survey [project](projects/imdl_ays), increasing deployment count by **2.5× across U.S. locations** by reducing false positives by 60-70% and significantly increase coverage.  
@@ -61,7 +65,7 @@ I build and deploy computer vision and machine learning solutions that answer im
 ## Skills & Interests
 ---
 - **Programming Languages**: Python, Java, C++, Golang
-- **Expertise**: 
+- **Technical Expertise**: 
   - Computer Vision: Traditional and Machine Learning (Transformers, CNNs) based algorithms as well as required dataset analysis/preparation/augmentation processes. 
   - Tabular Machine Learning: Decision Tree-Based, Linear, SVMS, Clustering
   - MLOps: Weights & Biases, SageMaker
@@ -73,6 +77,12 @@ I build and deploy computer vision and machine learning solutions that answer im
   - Data Modeling-
   - Software Development Lifecycle
 
+- **Business & Strategy Skills:**
+
+  - Visionary problem-solving for emerging CV applications
+  - Technical advising for early-stage product-market fit
+  - Translating complex ML systems into stakeholder-aligned roadmaps
+  - Evangelizing technical solutions with non-technical audiences
 <p>&nbsp;</p>
 
 

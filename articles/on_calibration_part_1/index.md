@@ -46,8 +46,6 @@ MCE captures the worst-case gap between predicted confidence and actual accuracy
 
 Again, referring back to the reliability diagram, MCE is the height of the largest vertical gap between a bin’s accuracy and the perfect calibration line. I find MCE especially useful for high-risk systems and when choosing or evaluating calibration methods, as we’ll explore in Part 2 of this Confidence Calibration series.
 
-
-
 #### Brier Score
 The Brier Score quantifies the mean squared difference between predicted confidence and actual binary outcomes. A lower Brier Score indicates better-calibrated **and** more accurate predictions.
 
