@@ -12,8 +12,6 @@ title: Home
 
 This website serves as a showcase of my expertise in building ***and*** deploying solutions that scale using computer vision and machine learning. Here, you'll find sections about my work and articles on technical topics.
 
-[Download my Resume](assets/KruseResume2024Q3.pdf)
-
 <p>&nbsp;</p>
 
 ## Overview
