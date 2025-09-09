@@ -21,6 +21,6 @@ A selection of external publications highlighting projects I’ve contributed to
 
 - [Getting a better look at BNSF’s track](https://www.rtands.com/track-construction/getting-a-better-look-at-bnsfs-track/)
 
-### Patents (not inlcuding those pending)
-- [Intelligent real-time information ingestion system and method](https://patents.google.com/patent/US20250252752A1/en?inventor=michael+ibanez,bowen+kruse)
-- [Intermodal inventory visualization systems and methods](https://patents.google.com/patent/US20250252386A1/en?inventor=michael+ibanez,bowen+kruse)
+### Patents
+- [Intelligent real-time information ingestion system and method US20250252752A1 (Pending)](https://patents.google.com/patent/US20250252752A1/en?inventor=michael+ibanez,bowen+kruse)
+- [Intermodal inventory visualization systems and methods US20250252386A1 (Pending)](https://patents.google.com/patent/US20250252386A1/en?inventor=michael+ibanez,bowen+kruse)
