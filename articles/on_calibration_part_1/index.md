@@ -1,3 +1,15 @@
+---
+layout: post
+title: Confidence Calibration Series Part 1: Evaluating Confidence Calibration
+---
+
+*Updated September 2025*
+
+Click here to the demo available in Google Colab
+
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bowentkruse/confidenceCalibration/blob/main/demo.ipynb)
+<p>&nbsp;</p>
+
 ### Introduction
 In the world of computer vision, and machine learning in general, confidence scores are an often misunderstood value. Many folks, both practitioners and project stakeholders in general, assume that a model's confidence score directly reflects the probability of correctness. However, this is only true if the model is well-calibrated. 
 

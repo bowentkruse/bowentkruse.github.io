@@ -1,3 +1,15 @@
+---
+layout: post
+title: Confidence Calibration Part 2: Post-training Improvements (Includes Google Colab Demo)
+---
+
+*Updated September 2025*
+
+Click here to the demo available in Google Colab
+
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](bowentkruse/confidenceCalibration/blob/main/demo.ipynb)
+<p>&nbsp;</p>
+
 ### Introduction
 As discussed in [Part 1 of this series](../on_calibration_part_1/index.md), **Confidence Calibration** is a model’s ability to provide an accurate probability of correctness for a given prediction. For example, among predictions made with 90% confidence by a perfectly calibrated model, 90% will actually be correct.
 
