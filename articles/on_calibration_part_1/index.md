@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Confidence Calibration Series Part 1: Evaluating Confidence Calibration
+title: Confidence Calibration Series Part 1 - Evaluating Confidence Calibration
 ---
 
 *Updated September 2025*

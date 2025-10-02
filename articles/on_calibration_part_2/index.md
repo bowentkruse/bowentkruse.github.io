@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Confidence Calibration Part 2: Post-training Improvements (Includes Google Colab Demo)
+title: Confidence Calibration Part 2 - Post-training Improvements (Includes Google Colab Demo)
 ---
 
 *Updated September 2025*
