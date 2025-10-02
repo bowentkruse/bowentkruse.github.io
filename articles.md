@@ -3,6 +3,8 @@ layout: page
 title: Articles
 ---
 
+[Lessons I Teach Every Computer Vision New Hire](articles/new_hire_lessons/)
+
 [Confidence Calibration Series Part 1: Evaluating Confidence Calibration](articles/on_calibration_part_1)
 
 [Confidence Calibration Part 2: Post-training Improvements (Includes Google Colab Demo)](articles/on_calibration_part_2)
