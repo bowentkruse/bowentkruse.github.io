@@ -75,7 +75,7 @@ The second variation is very similar to the original, however instead of measuri
 
 <p>&nbsp;</p>
 
-```
+```python
 def get_brenners_focus_vert_derivative(pil_image: Image.Image) -> float:
     """
     Calculate Brenner's focus measure to assess the sharpness of a given image.
@@ -114,7 +114,7 @@ For the third variation, instead of simply taking difference between adjacent pi
 
 <p>&nbsp;</p>
 
-```
+```python
 def get_brenners_focus_horizontal_gradient(pil_image: Image.Image) -> float:
     """
     Calculate Brenner's focus measure to assess the sharpness of a given image.
@@ -155,7 +155,7 @@ The forth variant we'll implement is similar to the third variation, however it 
 
 <p>&nbsp;</p>
 
-```
+```python
 def get_brenners_focus_vert_gradient(pil_image: Image.Image) -> float:
     """
     Calculate Brenner's focus measure to assess the sharpness of a given image.
@@ -195,8 +195,7 @@ This is a variation on the first original equation that computes the horizontal 
 
 <p>&nbsp;</p>
 
-```
-
+```python
 def get_brenners_focus_color(pil_image: Image.Image) -> float:
     """
     Calculate Brenner's focus measure for a color image by applying the horizontal derivative

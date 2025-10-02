@@ -9,6 +9,7 @@ A selection of external publications highlighting projects I’ve contributed to
 
 - [BNSF | 2024 Aerial Achievement Award Winner – From Flight to Insight
 ](https://www.skydio.com/customers/awards/bnsf-aerial-achievement-award-winner-from-flight-to-insight)
+
 - [BNSF using AI for monitoring, train assembly, inventory management](https://www.progressiverailroading.com/bnsf_railway/news/BNSF-using-AI-for-monitoring-train-assembly-inventory-management--73665)
 
 - [‘Force Multipliers’](https://www.railwayage.com/freight/class-i/force-multipliers/)

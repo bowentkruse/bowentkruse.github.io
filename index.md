@@ -63,6 +63,7 @@ I build and deploy computer vision and machine learning solutions that answer im
 ## Skills & Interests
 ---
 - **Programming Languages**: Python, Java, C++, Golang
+
 - **Technical Expertise**: 
   - Computer Vision: Traditional and Machine Learning (Transformers, CNNs) based algorithms as well as required dataset analysis/preparation/augmentation processes. 
   - Tabular Machine Learning: Decision Tree-Based, Linear, SVMS, Clustering
@@ -76,13 +77,11 @@ I build and deploy computer vision and machine learning solutions that answer im
   - Software Development Lifecycle
 
 - **Business & Strategy Skills:**
-
   - Visionary problem-solving for emerging CV applications
   - Technical advising for early-stage product-market fit
   - Translating complex ML systems into stakeholder-aligned roadmaps
   - Evangelizing technical solutions with non-technical audiences
 <p>&nbsp;</p>
-
 
 ## Education
 ---
